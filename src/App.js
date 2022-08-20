@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 import Todo from './components/Todo';
 import Display from './components/Display';
+import AnotherTodo from './components/AnotherTodo';
 
 function App() {
   const [createTodo, setCreateTodo] = useState("");
@@ -20,6 +21,7 @@ function App() {
         allTodos = {allTodos} 
         setAllTodos = {setAllTodos}
       />
+      <AnotherTodo />
     </div>
   );
 }
