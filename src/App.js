@@ -21,7 +21,6 @@ function App() {
         allTodos = {allTodos} 
         setAllTodos = {setAllTodos}
       />
-      <AnotherTodo />
     </div>
   );
 }
