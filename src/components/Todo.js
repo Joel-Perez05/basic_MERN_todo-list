@@ -20,7 +20,7 @@ const Todo = (props) => {
 
     return (
     <div>
-        <h1>Make Your To Do List!!!</h1>
+        <h1>Plan Your Day, Make Your To Do List!!!</h1>
         <form onSubmit={newTodoHandler}>
             <input type="text" value={createTodo} onChange = {(e) => setCreateTodo(e.target.value)} />
             <div>
